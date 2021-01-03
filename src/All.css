@@ -1,0 +1,112 @@
+/* .All {
+    font-family: sans-serif;
+    text-align: left;
+  } */
+  @import url("//db.onlinewebfonts.com/c/f3258385782c4c96aa24fe8b5d5f9782?family=Old+English+Text+MT");
+  @import url('https://fonts.googleapis.com/css2?family=Bilbo&family=Kavivanar&family=Open+Sans:ital@1&display=swap');
+  body {
+      /* font-family: 'Bilbo', cursive; */
+      /* font-family: 'Kavivanar', cursive; */
+      font-family: 'Open Sans', sans-serif;
+      margin: 0px;
+    background-image: url("/src/image/heisenberg.png") ;
+    background-repeat: repeat;
+    background-size: auto;
+    /* background-blend-mode:color-dodge; */
+  }
+  @media (min-width: 600px) {
+    .All{
+        width:500px;
+    }
+}
+:root{
+  --primary-color: rgba(105, 179, 112, 0.61);
+  --secondary-color: rgb(2, 54, 2);
+} 
+  .all {
+    margin-top: 0rem;
+      /* */
+      margin: auto; 
+      }
+/* .link {
+  text-decoration: none;
+} */
+.heading{
+        font-family: sans-serif;
+        color:rgb(2, 54, 2);
+        margin:auto;
+        text-align:center;
+        font-size: 3rem; 
+        padding:  0.5rem 0rem;
+        background-color: var(--primary-color);
+        border-bottom-left-radius: 2rem;
+        box-shadow: 5px 5px var(--secondary-color);
+        border-bottom-right-radius: 2rem;
+    }
+  .each{
+    text-decoration: none;
+    background-color: var(--primary-color);
+    /* font-display:inherit; */
+    max-width: 800px;
+    margin: auto; 
+    padding: 2rem; 
+    box-shadow: 5px 10px  var(--secondary-color);
+    border: 2px solid none;
+    /* border-radius: 4px; */
+    /* border-style: double;  */
+    border-radius: 4rem; 
+    font-size: 1.2rem;
+    color: black;
+  }
+
+  a {
+    text-decoration:none;
+    color:black;
+    font-weight: 5px;
+  }
+
+  .name {
+    font-weight:500;
+    font-style: inherit;
+    text-decoration: none;
+    text-align:left;
+    font-size: 2.5rem;
+    color: rgb(2, 54, 2);
+    
+    /* padding: 0rem 0rem 0rem; */
+  }
+  
+  .list-non-bullet {
+    list-style: none; 
+    
+  }
+  
+  /* .heading {
+    text-align: center;
+    text-align: left;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0rem;
+    border-bottom-left-radius: 1rem;
+    
+  } */
+  .back_img {
+    opacity:0.2;
+    width:100%;
+    float:unset;
+  }
+  .heading-img{
+
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+     width:15%; 
+    
+  }
+  
+  ol .li{
+      
+    margin: 3rem 2rem 2rem 0rem;
+    padding: 0rem 4rem 5rem 5rem;
+    /* background-color: green; */
+  }
